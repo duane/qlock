@@ -1,0 +1,10 @@
+e21a48cbd8bb4022cba34636871b339f 133d61d0d7be2fcfe246bdaaab86853f ffffffffffffffffffffffffffffffff 102 /Users/duane/Projects/qlock/build/Debug/Qlock.app
+6c86f32ad5251f64c3ad362963ec765f e722b82477456a3673835da5328074df ffffffffffffffffffffffffffffffff 29056 /Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/MacOS/Qlock
+00000000000000000000000000000000 0eec2978457b4b89ffe73216b8a0a315 ffffffffffffffffffffffffffffffff 1043 /Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/Resources/README
+000000004cd5fe090000000000026b8c 18b201f697b2a1552a72aca270afaf7e ffffffffffffffffffffffffffffffff 28488 /Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/Resources/English.lproj/MainMenu.nib
+000000004cd5fe09000000000000005c 7fe02b4ba812dfacae18b30e1e7a56a4 ffffffffffffffffffffffffffffffff 92 /Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/Resources/English.lproj/InfoPlist.strings
+00000000000000000000000000000000 62d095ae4a6008933f6122f3f27dc260 ffffffffffffffffffffffffffffffff 8 /Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/PkgInfo
+00000000000000000000000000000000 62d095ae4a6008933f6122f3f27dc260 ffffffffffffffffffffffffffffffff 763 /Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/Info.plist
+0c9bd052a45b5b4f6b20e6ba5aae965c 5130a431870b5b4d2fe2d07ab249e77e ffffffffffffffffffffffffffffffff 33308 /Users/duane/Projects/qlock/build/Qlock.build/Debug/Qlock.build/Objects-normal/i386/QlockView.o
+0c9bd052eafa06f66b20e6ba5aae9078 3db6571b1bfb874aec4fe653d1a8122f ffffffffffffffffffffffffffffffff 4836 /Users/duane/Projects/qlock/build/Qlock.build/Debug/Qlock.build/Objects-normal/i386/main.o
+000000000c1154610000000000000395 0c9bd052eafa06f66b20e6ba5aae90be ffffffffffffffffffffffffffffffff 54075824 /var/folders/sm/sm-NrhELEOS-08xkjZWc0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Qlock_Prefix-apzvkcmcwwzeuaelrxaawvnrwcyn/Qlock_Prefix.pch.gch

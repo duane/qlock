@@ -1,0 +1,1005 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		47097424128698EA00F1161A /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 470974331286992A00F1161A /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				4709746912869A0100F1161A /* PBXTargetDependency */,
+				4709746712869A0100F1161A /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+		47097458128699DF00F1161A /* Application */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4709747112869A1C00F1161A /* Build configuration list for PBXAggregateTarget "Application" */;
+			buildPhases = (
+			);
+			dependencies = (
+				4709745E128699E900F1161A /* PBXTargetDependency */,
+				4709745C128699E900F1161A /* PBXTargetDependency */,
+			);
+			name = Application;
+			productName = Application;
+		};
+		4709745F128699F700F1161A /* ScreenSaver */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4709747212869A1C00F1161A /* Build configuration list for PBXAggregateTarget "ScreenSaver" */;
+			buildPhases = (
+			);
+			dependencies = (
+				47097465128699FC00F1161A /* PBXTargetDependency */,
+				47097463128699FC00F1161A /* PBXTargetDependency */,
+			);
+			name = ScreenSaver;
+			productName = ScreenSaver;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		47096F2312866FFC00F1161A /* QlockFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47096F2212866FFC00F1161A /* QlockFrameView.m */; };
+		47096F5C1286744500F1161A /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47096F5B1286744500F1161A /* Preferences.xib */; };
+		470971371286918600F1161A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 470971311286918600F1161A /* InfoPlist.strings */; };
+		470971391286918600F1161A /* version.plist in Resources */ = {isa = PBXBuildFile; fileRef = 470971351286918600F1161A /* version.plist */; };
+		4709715E1286925400F1161A /* QScreenSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 470971331286918600F1161A /* QScreenSaverView.m */; };
+		470971601286926200F1161A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4709715F1286926200F1161A /* Cocoa.framework */; };
+		470973361286928500F1161A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4709715F1286926200F1161A /* Cocoa.framework */; };
+		470973371286928500F1161A /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4709732E1286928100F1161A /* ScreenSaver.framework */; };
+		4709733B128692B200F1161A /* QlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 473EBDED1283221C00E5F7F0 /* QlockView.m */; };
+		4709733C128692BB00F1161A /* QlockView.h in Headers */ = {isa = PBXBuildFile; fileRef = 473EBDEC1283221C00E5F7F0 /* QlockView.h */; };
+		4709733D128692C400F1161A /* QScreenSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 470971321286918600F1161A /* QScreenSaverView.h */; };
+		4709733E128692DD00F1161A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		470973FA1286987800F1161A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		470973FC1286987800F1161A /* QScreenSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 470971331286918600F1161A /* QScreenSaverView.m */; };
+		470973FD1286987800F1161A /* QlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 473EBDED1283221C00E5F7F0 /* QlockView.m */; };
+		470973FF1286987800F1161A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4709715F1286926200F1161A /* Cocoa.framework */; };
+		470974001286987800F1161A /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4709732E1286928100F1161A /* ScreenSaver.framework */; };
+		470974021286987800F1161A /* QScreenSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 470971321286918600F1161A /* QScreenSaverView.h */; };
+		470974031286987800F1161A /* QlockView.h in Headers */ = {isa = PBXBuildFile; fileRef = 473EBDEC1283221C00E5F7F0 /* QlockView.h */; };
+		4709743B128699A200F1161A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		4709743C128699A200F1161A /* README in Resources */ = {isa = PBXBuildFile; fileRef = 4724230212862D6A004951EC /* README */; };
+		4709743D128699A200F1161A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4765927E12865C4D00ED1E15 /* MainMenu.xib */; };
+		4709743E128699A200F1161A /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47096F5B1286744500F1161A /* Preferences.xib */; };
+		4709743F128699A200F1161A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 470971311286918600F1161A /* InfoPlist.strings */; };
+		47097440128699A200F1161A /* version.plist in Resources */ = {isa = PBXBuildFile; fileRef = 470971351286918600F1161A /* version.plist */; };
+		47097442128699A200F1161A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		47097443128699A200F1161A /* QlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 473EBDED1283221C00E5F7F0 /* QlockView.m */; };
+		47097444128699A200F1161A /* QlockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4765920D1286530200ED1E15 /* QlockController.m */; };
+		47097445128699A200F1161A /* QlockWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 476592C81286606000ED1E15 /* QlockWindow.m */; };
+		47097446128699A200F1161A /* QlockFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47096F2212866FFC00F1161A /* QlockFrameView.m */; };
+		47097448128699A200F1161A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		47097449128699A200F1161A /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 473EBDF71283252E00E5F7F0 /* Quartz.framework */; };
+		4709744A128699A200F1161A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 473EBE81128328A300E5F7F0 /* QuartzCore.framework */; };
+		4709744B128699A200F1161A /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 478C7074128665DA006ADDC5 /* Carbon.framework */; };
+		4709744C128699A200F1161A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4709715F1286926200F1161A /* Cocoa.framework */; };
+		470974AC12869D7F00F1161A /* QlockViewBlurred.h in Headers */ = {isa = PBXBuildFile; fileRef = 470974AA12869D7F00F1161A /* QlockViewBlurred.h */; };
+		470974AD12869D7F00F1161A /* QlockViewBlurred.m in Sources */ = {isa = PBXBuildFile; fileRef = 470974AB12869D7F00F1161A /* QlockViewBlurred.m */; };
+		470974AE12869D7F00F1161A /* QlockViewBlurred.m in Sources */ = {isa = PBXBuildFile; fileRef = 470974AB12869D7F00F1161A /* QlockViewBlurred.m */; };
+		470974AF12869D7F00F1161A /* QlockViewBlurred.h in Headers */ = {isa = PBXBuildFile; fileRef = 470974AA12869D7F00F1161A /* QlockViewBlurred.h */; };
+		470974B012869D7F00F1161A /* QlockViewBlurred.m in Sources */ = {isa = PBXBuildFile; fileRef = 470974AB12869D7F00F1161A /* QlockViewBlurred.m */; };
+		470974B112869D7F00F1161A /* QlockViewBlurred.m in Sources */ = {isa = PBXBuildFile; fileRef = 470974AB12869D7F00F1161A /* QlockViewBlurred.m */; };
+		470975251286A68300F1161A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 470975241286A68300F1161A /* QuartzCore.framework */; };
+		470975261286A68B00F1161A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 470975241286A68300F1161A /* QuartzCore.framework */; };
+		4724230312862D6A004951EC /* README in Resources */ = {isa = PBXBuildFile; fileRef = 4724230212862D6A004951EC /* README */; };
+		473EBDEE1283221C00E5F7F0 /* QlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 473EBDED1283221C00E5F7F0 /* QlockView.m */; };
+		473EBDF81283252E00E5F7F0 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 473EBDF71283252E00E5F7F0 /* Quartz.framework */; };
+		473EBE82128328A300E5F7F0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 473EBE81128328A300E5F7F0 /* QuartzCore.framework */; };
+		4765920E1286530200ED1E15 /* QlockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4765920D1286530200ED1E15 /* QlockController.m */; };
+		4765927F12865C4D00ED1E15 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4765927E12865C4D00ED1E15 /* MainMenu.xib */; };
+		476592C91286606000ED1E15 /* QlockWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 476592C81286606000ED1E15 /* QlockWindow.m */; };
+		478C7075128665DA006ADDC5 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 478C7074128665DA006ADDC5 /* Carbon.framework */; };
+		479CCDCF1286B321006756B6 /* Qlock.icns in Resources */ = {isa = PBXBuildFile; fileRef = 479CCDCE1286B321006756B6 /* Qlock.icns */; };
+		479CCDD01286B321006756B6 /* Qlock.icns in Resources */ = {isa = PBXBuildFile; fileRef = 479CCDCE1286B321006756B6 /* Qlock.icns */; };
+		479CCDD11286B321006756B6 /* Qlock.icns in Resources */ = {isa = PBXBuildFile; fileRef = 479CCDCE1286B321006756B6 /* Qlock.icns */; };
+		479CCDD21286B321006756B6 /* Qlock.icns in Resources */ = {isa = PBXBuildFile; fileRef = 479CCDCE1286B321006756B6 /* Qlock.icns */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47097454128699A800F1161A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47097439128699A200F1161A;
+			remoteInfo = "Qlock copy";
+		};
+		4709745B128699E900F1161A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47097439128699A200F1161A;
+			remoteInfo = Qlock10.5;
+		};
+		4709745D128699E900F1161A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1107260486CEB800E47090;
+			remoteInfo = Qlock10.6;
+		};
+		47097462128699FC00F1161A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 470973F81286987800F1161A;
+			remoteInfo = QlockScreenSaver10.5;
+		};
+		47097464128699FC00F1161A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47097158128691EA00F1161A;
+			remoteInfo = QlockScreenSaver10.6;
+		};
+		4709746612869A0100F1161A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4709745F128699F700F1161A;
+			remoteInfo = ScreenSaver;
+		};
+		4709746812869A0100F1161A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47097458128699DF00F1161A;
+			remoteInfo = Application;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4709747412869A6300F1161A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Qlock_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Qlock_Prefix.pch; sourceTree = "<group>"; };
+		47096F2112866FFC00F1161A /* QlockFrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QlockFrameView.h; sourceTree = "<group>"; };
+		47096F2212866FFC00F1161A /* QlockFrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QlockFrameView.m; sourceTree = "<group>"; };
+		47096F5B1286744500F1161A /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		470971311286918600F1161A /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		470971321286918600F1161A /* QScreenSaverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QScreenSaverView.h; path = ../qlock/ScreenSaver/QScreenSaverView.h; sourceTree = SOURCE_ROOT; };
+		470971331286918600F1161A /* QScreenSaverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QScreenSaverView.m; path = ../qlock/ScreenSaver/QScreenSaverView.m; sourceTree = SOURCE_ROOT; };
+		470971341286918600F1161A /* ScreenSaver_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreenSaver_Prefix.pch; path = ../qlock/ScreenSaver/ScreenSaver_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		470971351286918600F1161A /* version.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = version.plist; path = ../qlock/ScreenSaver/version.plist; sourceTree = SOURCE_ROOT; };
+		47097159128691EA00F1161A /* Qlock.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Qlock.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		4709715A128691EA00F1161A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4709715F1286926200F1161A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4709732E1286928100F1161A /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		470974071286987800F1161A /* Qlock.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Qlock.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		47097451128699A200F1161A /* Qlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		470974AA12869D7F00F1161A /* QlockViewBlurred.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QlockViewBlurred.h; sourceTree = "<group>"; };
+		470974AB12869D7F00F1161A /* QlockViewBlurred.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QlockViewBlurred.m; sourceTree = "<group>"; };
+		470975241286A68300F1161A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4724230212862D6A004951EC /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		473EBDEC1283221C00E5F7F0 /* QlockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QlockView.h; sourceTree = "<group>"; };
+		473EBDED1283221C00E5F7F0 /* QlockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QlockView.m; sourceTree = "<group>"; };
+		473EBDF71283252E00E5F7F0 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		473EBE81128328A300E5F7F0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4765920C1286530200ED1E15 /* QlockController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QlockController.h; sourceTree = "<group>"; };
+		4765920D1286530200ED1E15 /* QlockController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QlockController.m; sourceTree = "<group>"; };
+		4765927E12865C4D00ED1E15 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		476592C71286606000ED1E15 /* QlockWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QlockWindow.h; sourceTree = "<group>"; };
+		476592C81286606000ED1E15 /* QlockWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QlockWindow.m; sourceTree = "<group>"; };
+		478C705F12866568006ADDC5 /* CGSPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSPrivate.h; sourceTree = "<group>"; };
+		478C7074128665DA006ADDC5 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		479CCDCE1286B321006756B6 /* Qlock.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Qlock.icns; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Qlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47097157128691EA00F1161A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				470973361286928500F1161A /* Cocoa.framework in Frameworks */,
+				470973371286928500F1161A /* ScreenSaver.framework in Frameworks */,
+				470975251286A68300F1161A /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470973FE1286987800F1161A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				470973FF1286987800F1161A /* Cocoa.framework in Frameworks */,
+				470974001286987800F1161A /* ScreenSaver.framework in Frameworks */,
+				470975261286A68B00F1161A /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47097447128699A200F1161A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47097448128699A200F1161A /* Cocoa.framework in Frameworks */,
+				47097449128699A200F1161A /* Quartz.framework in Frameworks */,
+				4709744A128699A200F1161A /* QuartzCore.framework in Frameworks */,
+				4709744B128699A200F1161A /* Carbon.framework in Frameworks */,
+				4709744C128699A200F1161A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				473EBDF81283252E00E5F7F0 /* Quartz.framework in Frameworks */,
+				473EBE82128328A300E5F7F0 /* QuartzCore.framework in Frameworks */,
+				478C7075128665DA006ADDC5 /* Carbon.framework in Frameworks */,
+				470971601286926200F1161A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				473EBDEC1283221C00E5F7F0 /* QlockView.h */,
+				473EBDED1283221C00E5F7F0 /* QlockView.m */,
+				470974AA12869D7F00F1161A /* QlockViewBlurred.h */,
+				470974AB12869D7F00F1161A /* QlockViewBlurred.m */,
+				47096F2112866FFC00F1161A /* QlockFrameView.h */,
+				47096F2212866FFC00F1161A /* QlockFrameView.m */,
+				4765920C1286530200ED1E15 /* QlockController.h */,
+				4765920D1286530200ED1E15 /* QlockController.m */,
+				476592C71286606000ED1E15 /* QlockWindow.h */,
+				476592C81286606000ED1E15 /* QlockWindow.m */,
+				478C705F12866568006ADDC5 /* CGSPrivate.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				478C7074128665DA006ADDC5 /* Carbon.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				473EBE81128328A300E5F7F0 /* QuartzCore.framework */,
+				473EBDF71283252E00E5F7F0 /* Quartz.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Qlock.app */,
+				47097159128691EA00F1161A /* Qlock.saver */,
+				470974071286987800F1161A /* Qlock.saver */,
+				47097451128699A200F1161A /* Qlock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Qlock */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				4709712F1286918600F1161A /* ScreenSaver */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				4724230212862D6A004951EC /* README */,
+				470975241286A68300F1161A /* QuartzCore.framework */,
+			);
+			name = Qlock;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Qlock_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				479CCDCE1286B321006756B6 /* Qlock.icns */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				4765927E12865C4D00ED1E15 /* MainMenu.xib */,
+				47096F5B1286744500F1161A /* Preferences.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4709712F1286918600F1161A /* ScreenSaver */ = {
+			isa = PBXGroup;
+			children = (
+				470971911286927100F1161A /* Frameworks */,
+				4709713A1286918B00F1161A /* Resources */,
+				470971321286918600F1161A /* QScreenSaverView.h */,
+				470971331286918600F1161A /* QScreenSaverView.m */,
+				470971341286918600F1161A /* ScreenSaver_Prefix.pch */,
+				470971351286918600F1161A /* version.plist */,
+			);
+			name = ScreenSaver;
+			path = ../qlock/ScreenSaver;
+			sourceTree = SOURCE_ROOT;
+		};
+		4709713A1286918B00F1161A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4709715A128691EA00F1161A /* Info.plist */,
+				470971311286918600F1161A /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		470971911286927100F1161A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4709715F1286926200F1161A /* Cocoa.framework */,
+				4709732E1286928100F1161A /* ScreenSaver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4709733F128692FB00F1161A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4709733D128692C400F1161A /* QScreenSaverView.h in Headers */,
+				4709733C128692BB00F1161A /* QlockView.h in Headers */,
+				470974AC12869D7F00F1161A /* QlockViewBlurred.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470974011286987800F1161A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				470974021286987800F1161A /* QScreenSaverView.h in Headers */,
+				470974031286987800F1161A /* QlockView.h in Headers */,
+				470974AF12869D7F00F1161A /* QlockViewBlurred.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		47097158128691EA00F1161A /* QlockScreenSaver10.6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4709715D128691EB00F1161A /* Build configuration list for PBXNativeTarget "QlockScreenSaver10.6" */;
+			buildPhases = (
+				47097155128691EA00F1161A /* Resources */,
+				47097156128691EA00F1161A /* Sources */,
+				47097157128691EA00F1161A /* Frameworks */,
+				4709733F128692FB00F1161A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QlockScreenSaver10.6;
+			productName = QlockScreenSaver;
+			productReference = 47097159128691EA00F1161A /* Qlock.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+		470973F81286987800F1161A /* QlockScreenSaver10.5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 470974041286987800F1161A /* Build configuration list for PBXNativeTarget "QlockScreenSaver10.5" */;
+			buildPhases = (
+				470973F91286987800F1161A /* Resources */,
+				470973FB1286987800F1161A /* Sources */,
+				470973FE1286987800F1161A /* Frameworks */,
+				470974011286987800F1161A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QlockScreenSaver10.5;
+			productName = QlockScreenSaver;
+			productReference = 470974071286987800F1161A /* Qlock.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+		47097439128699A200F1161A /* Qlock10.5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4709744E128699A200F1161A /* Build configuration list for PBXNativeTarget "Qlock10.5" */;
+			buildPhases = (
+				4709743A128699A200F1161A /* Resources */,
+				47097441128699A200F1161A /* Sources */,
+				47097447128699A200F1161A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Qlock10.5;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Qlock;
+			productReference = 47097451128699A200F1161A /* Qlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D1107260486CEB800E47090 /* Qlock10.6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Qlock10.6" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				4709747412869A6300F1161A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47097455128699A800F1161A /* PBXTargetDependency */,
+			);
+			name = Qlock10.6;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Qlock;
+			productReference = 8D1107320486CEB800E47090 /* Qlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Qlock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Qlock */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47097424128698EA00F1161A /* All */,
+				47097458128699DF00F1161A /* Application */,
+				4709745F128699F700F1161A /* ScreenSaver */,
+				8D1107260486CEB800E47090 /* Qlock10.6 */,
+				47097158128691EA00F1161A /* QlockScreenSaver10.6 */,
+				470973F81286987800F1161A /* QlockScreenSaver10.5 */,
+				47097439128699A200F1161A /* Qlock10.5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47097155128691EA00F1161A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4709733E128692DD00F1161A /* InfoPlist.strings in Resources */,
+				479CCDCF1286B321006756B6 /* Qlock.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470973F91286987800F1161A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				470973FA1286987800F1161A /* InfoPlist.strings in Resources */,
+				479CCDD11286B321006756B6 /* Qlock.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4709743A128699A200F1161A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4709743B128699A200F1161A /* InfoPlist.strings in Resources */,
+				4709743C128699A200F1161A /* README in Resources */,
+				4709743D128699A200F1161A /* MainMenu.xib in Resources */,
+				4709743E128699A200F1161A /* Preferences.xib in Resources */,
+				4709743F128699A200F1161A /* InfoPlist.strings in Resources */,
+				47097440128699A200F1161A /* version.plist in Resources */,
+				479CCDD01286B321006756B6 /* Qlock.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				4724230312862D6A004951EC /* README in Resources */,
+				4765927F12865C4D00ED1E15 /* MainMenu.xib in Resources */,
+				47096F5C1286744500F1161A /* Preferences.xib in Resources */,
+				470971371286918600F1161A /* InfoPlist.strings in Resources */,
+				470971391286918600F1161A /* version.plist in Resources */,
+				479CCDD21286B321006756B6 /* Qlock.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47097156128691EA00F1161A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4709715E1286925400F1161A /* QScreenSaverView.m in Sources */,
+				4709733B128692B200F1161A /* QlockView.m in Sources */,
+				470974AD12869D7F00F1161A /* QlockViewBlurred.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470973FB1286987800F1161A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				470973FC1286987800F1161A /* QScreenSaverView.m in Sources */,
+				470973FD1286987800F1161A /* QlockView.m in Sources */,
+				470974B012869D7F00F1161A /* QlockViewBlurred.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47097441128699A200F1161A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47097442128699A200F1161A /* main.m in Sources */,
+				47097443128699A200F1161A /* QlockView.m in Sources */,
+				47097444128699A200F1161A /* QlockController.m in Sources */,
+				47097445128699A200F1161A /* QlockWindow.m in Sources */,
+				47097446128699A200F1161A /* QlockFrameView.m in Sources */,
+				470974AE12869D7F00F1161A /* QlockViewBlurred.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				473EBDEE1283221C00E5F7F0 /* QlockView.m in Sources */,
+				4765920E1286530200ED1E15 /* QlockController.m in Sources */,
+				476592C91286606000ED1E15 /* QlockWindow.m in Sources */,
+				47096F2312866FFC00F1161A /* QlockFrameView.m in Sources */,
+				470974B112869D7F00F1161A /* QlockViewBlurred.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47097455128699A800F1161A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47097439128699A200F1161A /* Qlock10.5 */;
+			targetProxy = 47097454128699A800F1161A /* PBXContainerItemProxy */;
+		};
+		4709745C128699E900F1161A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47097439128699A200F1161A /* Qlock10.5 */;
+			targetProxy = 4709745B128699E900F1161A /* PBXContainerItemProxy */;
+		};
+		4709745E128699E900F1161A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D1107260486CEB800E47090 /* Qlock10.6 */;
+			targetProxy = 4709745D128699E900F1161A /* PBXContainerItemProxy */;
+		};
+		47097463128699FC00F1161A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 470973F81286987800F1161A /* QlockScreenSaver10.5 */;
+			targetProxy = 47097462128699FC00F1161A /* PBXContainerItemProxy */;
+		};
+		47097465128699FC00F1161A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47097158128691EA00F1161A /* QlockScreenSaver10.6 */;
+			targetProxy = 47097464128699FC00F1161A /* PBXContainerItemProxy */;
+		};
+		4709746712869A0100F1161A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4709745F128699F700F1161A /* ScreenSaver */;
+			targetProxy = 4709746612869A0100F1161A /* PBXContainerItemProxy */;
+		};
+		4709746912869A0100F1161A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47097458128699DF00F1161A /* Application */;
+			targetProxy = 4709746812869A0100F1161A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4709715B128691EB00F1161A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = ScreenSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = Qlock;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		4709715C128691EB00F1161A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = ScreenSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = Qlock;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = saver;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		470974051286987800F1161A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = ScreenSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = Qlock;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		470974061286987800F1161A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = ScreenSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = Qlock;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = saver;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		47097425128698EA00F1161A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = All;
+			};
+			name = Debug;
+		};
+		47097426128698EA00F1161A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = All;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		4709744F128699A200F1161A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Qlock_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Qlock;
+			};
+			name = Debug;
+		};
+		47097450128699A200F1161A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Qlock_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Qlock;
+			};
+			name = Release;
+		};
+		47097459128699DF00F1161A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = Application;
+			};
+			name = Debug;
+		};
+		4709745A128699DF00F1161A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = Application;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		47097460128699F700F1161A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = ScreenSaver;
+			};
+			name = Debug;
+		};
+		47097461128699F700F1161A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = ScreenSaver;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Qlock_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Qlock;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Qlock_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Qlock;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4709715D128691EB00F1161A /* Build configuration list for PBXNativeTarget "QlockScreenSaver10.6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4709715B128691EB00F1161A /* Debug */,
+				4709715C128691EB00F1161A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		470974041286987800F1161A /* Build configuration list for PBXNativeTarget "QlockScreenSaver10.5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				470974051286987800F1161A /* Debug */,
+				470974061286987800F1161A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		470974331286992A00F1161A /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47097425128698EA00F1161A /* Debug */,
+				47097426128698EA00F1161A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4709744E128699A200F1161A /* Build configuration list for PBXNativeTarget "Qlock10.5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4709744F128699A200F1161A /* Debug */,
+				47097450128699A200F1161A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4709747112869A1C00F1161A /* Build configuration list for PBXAggregateTarget "Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47097459128699DF00F1161A /* Debug */,
+				4709745A128699DF00F1161A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4709747212869A1C00F1161A /* Build configuration list for PBXAggregateTarget "ScreenSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47097460128699F700F1161A /* Debug */,
+				47097461128699F700F1161A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Qlock10.6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Qlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

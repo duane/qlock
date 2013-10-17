@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1045, 416}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+			sepNavWindowFrame = "{{15, 4}, {1204, 774}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = x86_64;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 47CF89E9128635AC00C26281 /* Qlock10.6 */;
+		activeTarget = 47097158128691EA00F1161A /* QlockScreenSaver10.6 */;
+		addToTargets = (
+			47097158128691EA00F1161A /* QlockScreenSaver10.6 */,
+			47097439128699A200F1161A /* Qlock10.5 */,
+			470973F81286987800F1161A /* QlockScreenSaver10.5 */,
+			8D1107260486CEB800E47090 /* Qlock10.6 */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 47CF8A11128635C500C26281 /* Code sense */;
+		executables = (
+			47CF89E9128635AC00C26281 /* Qlock10.6 */,
+			47097452128699A200F1161A /* Qlock10.5 */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					867,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					827,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 312395776;
+			PBXWorkspaceStateSaveDate = 312395776;
+		};
+		perUserProjectItems = {
+			470970141286887C00F1161A /* PBXTextBookmark */ = 470970141286887C00F1161A /* PBXTextBookmark */;
+			4709709C12868D0000F1161A /* PBXTextBookmark */ = 4709709C12868D0000F1161A /* PBXTextBookmark */;
+			470970F712868F2900F1161A /* PBXTextBookmark */ = 470970F712868F2900F1161A /* PBXTextBookmark */;
+			4709734D128693F900F1161A /* PBXTextBookmark */ = 4709734D128693F900F1161A /* PBXTextBookmark */;
+			470973781286949B00F1161A /* PBXTextBookmark */ = 470973781286949B00F1161A /* PBXTextBookmark */;
+			4709737C1286949B00F1161A /* PBXTextBookmark */ = 4709737C1286949B00F1161A /* PBXTextBookmark */;
+			4709737E1286949B00F1161A /* PlistBookmark */ = 4709737E1286949B00F1161A /* PlistBookmark */;
+			470973871286958500F1161A /* PlistBookmark */ = 470973871286958500F1161A /* PlistBookmark */;
+			470973F1128697E300F1161A /* PBXTextBookmark */ = 470973F1128697E300F1161A /* PBXTextBookmark */;
+			4709746E12869A1C00F1161A /* PBXTextBookmark */ = 4709746E12869A1C00F1161A /* PBXTextBookmark */;
+			4709746F12869A1C00F1161A /* PBXTextBookmark */ = 4709746F12869A1C00F1161A /* PBXTextBookmark */;
+			470974B212869E7500F1161A /* PlistBookmark */ = 470974B212869E7500F1161A /* PlistBookmark */;
+			470974BB12869F5200F1161A /* PBXTextBookmark */ = 470974BB12869F5200F1161A /* PBXTextBookmark */;
+			470974BC12869F5200F1161A /* PBXTextBookmark */ = 470974BC12869F5200F1161A /* PBXTextBookmark */;
+			470974EF1286A46900F1161A /* PBXTextBookmark */ = 470974EF1286A46900F1161A /* PBXTextBookmark */;
+			470975011286A4E000F1161A /* PBXTextBookmark */ = 470975011286A4E000F1161A /* PBXTextBookmark */;
+			4709751F1286A67200F1161A /* PBXTextBookmark */ = 4709751F1286A67200F1161A /* PBXTextBookmark */;
+			470975201286A67200F1161A /* PlistBookmark */ = 470975201286A67200F1161A /* PlistBookmark */;
+			472F6FAC129ECF6100AB92C5 /* PBXTextBookmark */ = 472F6FAC129ECF6100AB92C5 /* PBXTextBookmark */;
+			472F6FAD129ECF6100AB92C5 /* PBXTextBookmark */ = 472F6FAD129ECF6100AB92C5 /* PBXTextBookmark */;
+			472F6FAE129ECF6100AB92C5 /* PlistBookmark */ = 472F6FAE129ECF6100AB92C5 /* PlistBookmark */;
+			4736B89812879CB800B6EBDE /* PBXBookmark */ = 4736B89812879CB800B6EBDE /* PBXBookmark */;
+			4736B89F12879CFF00B6EBDE /* PBXTextBookmark */ = 4736B89F12879CFF00B6EBDE /* PBXTextBookmark */;
+			4736B8A012879CFF00B6EBDE /* PBXTextBookmark */ = 4736B8A012879CFF00B6EBDE /* PBXTextBookmark */;
+			476591FC12864DB300ED1E15 /* PBXTextBookmark */ = 476591FC12864DB300ED1E15 /* PBXTextBookmark */;
+			47A269FF1286ABF10002878C /* PBXTextBookmark */ = 47A269FF1286ABF10002878C /* PBXTextBookmark */;
+			47A26A001286ABF10002878C /* PBXTextBookmark */ = 47A26A001286ABF10002878C /* PBXTextBookmark */;
+			47A26A011286ABF10002878C /* PBXTextBookmark */ = 47A26A011286ABF10002878C /* PBXTextBookmark */;
+		};
+		sourceControlManager = 47CF8A10128635C500C26281 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1048, 641}}";
+			sepNavSelRange = "{466, 0}";
+			sepNavVisRange = "{0, 694}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* Qlock_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1017, 804}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 624}";
+		};
+	};
+	47096F2112866FFC00F1161A /* QlockFrameView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1017, 779}}";
+			sepNavSelRange = "{954, 0}";
+			sepNavVisRange = "{0, 984}";
+		};
+	};
+	47096F2212866FFC00F1161A /* QlockFrameView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1299, 2144}}";
+			sepNavSelRange = "{634, 0}";
+			sepNavVisRange = "{0, 1050}";
+		};
+	};
+	470970141286887C00F1161A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 478C705F12866568006ADDC5 /* CGSPrivate.h */;
+		name = "CGSPrivate.h: 122";
+		rLen = 13;
+		rLoc = 6146;
+		rType = 0;
+		vrLen = 2883;
+		vrLoc = 4728;
+	};
+	4709709C12868D0000F1161A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4709709D12868D0000F1161A /* QlockFrameView.m */;
+		rLen = 0;
+		rLoc = 69;
+		rType = 1;
+	};
+	4709709D12868D0000F1161A /* QlockFrameView.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = QlockFrameView.m;
+		path = /Users/duane/Projects/qlock/QlockFrameView.m;
+		sourceTree = "<absolute>";
+	};
+	470970F712868F2900F1161A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47096F2112866FFC00F1161A /* QlockFrameView.h */;
+		name = "QlockFrameView.h: 31";
+		rLen = 0;
+		rLoc = 954;
+		rType = 0;
+		vrLen = 984;
+		vrLoc = 0;
+	};
+	470971311286918600F1161A /* InfoPlist.strings */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1017, 804}}";
+			sepNavSelRange = "{105, 0}";
+			sepNavVisRange = "{0, 105}";
+			sepNavWindowFrame = "{{38, 258}, {1204, 774}}";
+		};
+	};
+	470971321286918600F1161A /* QScreenSaverView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1299, 781}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 749}";
+		};
+	};
+	470971331286918600F1161A /* QScreenSaverView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1048, 864}}";
+			sepNavSelRange = "{409, 0}";
+			sepNavVisRange = "{0, 935}";
+		};
+	};
+	470971341286918600F1161A /* ScreenSaver_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1017, 781}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 194}";
+		};
+	};
+	47097158128691EA00F1161A /* QlockScreenSaver10.6 */ = {
+		activeExec = 0;
+	};
+	4709734D128693F900F1161A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470971341286918600F1161A /* ScreenSaver_Prefix.pch */;
+		name = "ScreenSaver_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 194;
+		vrLoc = 0;
+	};
+	470973781286949B00F1161A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470973791286949B00F1161A /* InfoPlist.strings */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	470973791286949B00F1161A /* InfoPlist.strings */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.strings;
+		name = InfoPlist.strings;
+		path = /Users/duane/Projects/Qlock/build/Release/Qlock.saver/Contents/Resources/English.lproj/InfoPlist.strings;
+		sourceTree = "<absolute>";
+	};
+	4709737B1286949B00F1161A /* Info.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = Info.plist;
+		path = /Users/duane/Projects/Qlock/build/Release/Qlock.saver/Contents/Info.plist;
+		sourceTree = "<absolute>";
+	};
+	4709737C1286949B00F1161A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Qlock_Prefix.pch */;
+		name = "Qlock_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 624;
+		vrLoc = 0;
+	};
+	4709737E1286949B00F1161A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/duane/Projects/Qlock/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	470973871286958500F1161A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 4709737B1286949B00F1161A /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleName,
+		);
+		name = /Users/duane/Projects/Qlock/build/Release/Qlock.saver/Contents/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	470973F1128697E300F1161A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4765920C1286530200ED1E15 /* QlockController.h */;
+		name = "QlockController.h: 29";
+		rLen = 0;
+		rLoc = 901;
+		rType = 0;
+		vrLen = 918;
+		vrLoc = 0;
+	};
+	470973F81286987800F1161A /* QlockScreenSaver10.5 */ = {
+		activeExec = 0;
+	};
+	47097424128698EA00F1161A /* All */ = {
+		activeExec = 0;
+	};
+	47097439128699A200F1161A /* Qlock10.5 */ = {
+		activeExec = 0;
+		executables = (
+			47097452128699A200F1161A /* Qlock10.5 */,
+		);
+	};
+	47097452128699A200F1161A /* Qlock10.5 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Qlock10.5;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	47097458128699DF00F1161A /* Application */ = {
+		activeExec = 0;
+	};
+	4709745F128699F700F1161A /* ScreenSaver */ = {
+		activeExec = 0;
+	};
+	4709746E12869A1C00F1161A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470971311286918600F1161A /* InfoPlist.strings */;
+		name = "InfoPlist.strings: 4";
+		rLen = 0;
+		rLoc = 105;
+		rType = 0;
+		vrLen = 105;
+		vrLoc = 0;
+	};
+	4709746F12869A1C00F1161A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4765920D1286530200ED1E15 /* QlockController.m */;
+		name = "QlockController.m: 20";
+		rLen = 0;
+		rLoc = 634;
+		rType = 0;
+		vrLen = 1672;
+		vrLoc = 0;
+	};
+	470974AA12869D7F00F1161A /* QlockViewBlurred.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1299, 801}}";
+			sepNavSelRange = "{235, 0}";
+			sepNavVisRange = "{0, 244}";
+		};
+	};
+	470974AB12869D7F00F1161A /* QlockViewBlurred.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1299, 848}}";
+			sepNavSelRange = "{298, 0}";
+			sepNavVisRange = "{0, 1720}";
+		};
+	};
+	470974B212869E7500F1161A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 470971351286918600F1161A /* version.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/duane/Projects/qlock/ScreenSaver/version.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	470974BB12869F5200F1161A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 476592C71286606000ED1E15 /* QlockWindow.h */;
+		name = "QlockWindow.h: 15";
+		rLen = 0;
+		rLoc = 571;
+		rType = 0;
+		vrLen = 674;
+		vrLoc = 0;
+	};
+	470974BC12869F5200F1161A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 476592C81286606000ED1E15 /* QlockWindow.m */;
+		name = "QlockWindow.m: 59";
+		rLen = 0;
+		rLoc = 1681;
+		rType = 0;
+		vrLen = 1297;
+		vrLoc = 393;
+	};
+	470974EF1286A46900F1161A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47096F2212866FFC00F1161A /* QlockFrameView.m */;
+		name = "QlockFrameView.m: 21";
+		rLen = 0;
+		rLoc = 634;
+		rType = 0;
+		vrLen = 1050;
+		vrLoc = 0;
+	};
+	470975011286A4E000F1161A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470975021286A4E000F1161A /* QlockViewBlurred.m */;
+		rLen = 0;
+		rLoc = 38;
+		rType = 1;
+	};
+	470975021286A4E000F1161A /* QlockViewBlurred.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = QlockViewBlurred.m;
+		path = /Users/duane/Projects/qlock/QlockViewBlurred.m;
+		sourceTree = "<absolute>";
+	};
+	4709751F1286A67200F1161A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470971321286918600F1161A /* QScreenSaverView.h */;
+		name = "QScreenSaverView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 749;
+		vrLoc = 0;
+	};
+	470975201286A67200F1161A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 4709715A128691EA00F1161A /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/duane/Projects/qlock/ScreenSaver/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	472F6FAC129ECF6100AB92C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 473EBDED1283221C00E5F7F0 /* QlockView.m */;
+		name = "QlockView.m: 14";
+		rLen = 0;
+		rLoc = 567;
+		rType = 0;
+		vrLen = 1137;
+		vrLoc = 0;
+	};
+	472F6FAD129ECF6100AB92C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	472F6FAE129ECF6100AB92C5 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/duane/Projects/Qlock/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	4736B89812879CB800B6EBDE /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 479CCDCE1286B321006756B6 /* Qlock.icns */;
+	};
+	4736B89F12879CFF00B6EBDE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470971331286918600F1161A /* QScreenSaverView.m */;
+		name = "QScreenSaverView.m: 18";
+		rLen = 0;
+		rLoc = 409;
+		rType = 0;
+		vrLen = 935;
+		vrLoc = 0;
+	};
+	4736B8A012879CFF00B6EBDE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 12";
+		rLen = 0;
+		rLoc = 466;
+		rType = 0;
+		vrLen = 694;
+		vrLoc = 0;
+	};
+	473EBDEC1283221C00E5F7F0 /* QlockView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1299, 944}}";
+			sepNavSelRange = "{1586, 28}";
+			sepNavVisRange = "{211, 1411}";
+		};
+	};
+	473EBDED1283221C00E5F7F0 /* QlockView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1188, 6784}}";
+			sepNavSelRange = "{567, 0}";
+			sepNavVisRange = "{0, 1137}";
+			sepNavWindowFrame = "{{15, 4}, {1204, 774}}";
+		};
+	};
+	476591FC12864DB300ED1E15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47CF8B041286419200C26281 /* QlockView.m */;
+		name = "QlockView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1639;
+		vrLoc = 37;
+	};
+	4765920C1286530200ED1E15 /* QlockController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1017, 804}}";
+			sepNavSelRange = "{901, 0}";
+			sepNavVisRange = "{0, 918}";
+			sepNavWindowFrame = "{{15, 279}, {1204, 774}}";
+		};
+	};
+	4765920D1286530200ED1E15 /* QlockController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1062, 804}}";
+			sepNavSelRange = "{634, 0}";
+			sepNavVisRange = "{0, 1672}";
+		};
+	};
+	476592C71286606000ED1E15 /* QlockWindow.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1017, 804}}";
+			sepNavSelRange = "{571, 0}";
+			sepNavVisRange = "{0, 674}";
+		};
+	};
+	476592C81286606000ED1E15 /* QlockWindow.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {952, 1072}}";
+			sepNavSelRange = "{1635, 0}";
+			sepNavVisRange = "{1418, 272}";
+		};
+	};
+	478C705F12866568006ADDC5 /* CGSPrivate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1307, 4832}}";
+			sepNavSelRange = "{6146, 13}";
+			sepNavVisRange = "{4728, 2883}";
+		};
+	};
+	47A269FF1286ABF10002878C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470974AA12869D7F00F1161A /* QlockViewBlurred.h */;
+		name = "QlockViewBlurred.h: 13";
+		rLen = 0;
+		rLoc = 235;
+		rType = 0;
+		vrLen = 244;
+		vrLoc = 0;
+	};
+	47A26A001286ABF10002878C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 470974AB12869D7F00F1161A /* QlockViewBlurred.m */;
+		name = "QlockViewBlurred.m: 16";
+		rLen = 0;
+		rLoc = 298;
+		rType = 0;
+		vrLen = 1720;
+		vrLoc = 0;
+	};
+	47A26A011286ABF10002878C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 473EBDEC1283221C00E5F7F0 /* QlockView.h */;
+		name = "QlockView.h: 56";
+		rLen = 28;
+		rLoc = 1586;
+		rType = 0;
+		vrLen = 1411;
+		vrLoc = 211;
+	};
+	47CF89E9128635AC00C26281 /* Qlock10.6 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Qlock10.6;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	47CF8A10128635C500C26281 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	47CF8A11128635C500C26281 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	47CF8B041286419200C26281 /* QlockView.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = QlockView.m;
+		path = /Users/duane/Projects/qlock/QlockView.m;
+		sourceTree = "<absolute>";
+	};
+	8D1107260486CEB800E47090 /* Qlock10.6 */ = {
+		activeExec = 0;
+		executables = (
+			47CF89E9128635AC00C26281 /* Qlock10.6 */,
+		);
+	};
+	8D1107310486CEB800E47090 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1204, 774}}";
+		};
+	};
+}

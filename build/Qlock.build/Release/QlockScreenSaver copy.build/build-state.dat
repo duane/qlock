@@ -1,0 +1,222 @@
+TQlockScreenSaver copy
+v7
+r1
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+c000000004A67D2A800000000000017ED
+t1248318120
+s6125
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004C5342AB0000000000003430
+t1280524971
+s13360
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Quartz.framework/Headers/Quartz.h
+c000000004A1249D30000000000000124
+t1242712531
+s292
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ScreenSaver.framework/Headers/ScreenSaver.h
+c000000004A419B5F00000000000000B9
+t1245813599
+s185
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ScreenSaver.framework/ScreenSaver
+c000000004C5342AD000000000001661C
+t1280524973
+s91676
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h
+c000000004A11EB240000000000000644
+t1242688292
+s1604
+
+N/Users/duane/Projects/Qlock/../qlock/ScreenSaver/QScreenSaverView.m
+c000000004CD659BD000000000000046B
+t1289116093
+s1131
+i"QScreenSaverView.h"
+
+N/Users/duane/Projects/Qlock/English.lproj/InfoPlist.strings
+c000000004CD5FE09000000000000005C
+t1289092617
+s92
+
+N/Users/duane/Projects/Qlock/QlockView.h
+c000000004CD64EF800000000000005EB
+t1289113336
+s1515
+i<Cocoa/Cocoa.h>
+i<Quartz/Quartz.h>
+i<ScreenSaver/ScreenSaver.h>
+
+N/Users/duane/Projects/Qlock/QlockView.m
+c000000004CD658AF0000000000003DC8
+t1289115823
+s15816
+i"QlockView.h"
+i<stdio.h>
+i<stdbool.h>
+
+N/Users/duane/Projects/Qlock/build/Qlock.build/Release/QlockScreenSaver copy.build/Objects-normal/i386/QScreenSaverView.o
+t2
+s0
+
+N/Users/duane/Projects/Qlock/build/Qlock.build/Release/QlockScreenSaver copy.build/Objects-normal/i386/Qlock
+t2
+s0
+
+N/Users/duane/Projects/Qlock/build/Qlock.build/Release/QlockScreenSaver copy.build/Objects-normal/i386/Qlock.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/duane/Projects/Qlock/build/Qlock.build/Release/QlockScreenSaver copy.build/Objects-normal/i386/QlockView.o
+t2
+s0
+
+N/Users/duane/Projects/Qlock/build/Qlock.build/Release/QlockScreenSaver copy.build/Objects-normal/ppc/QScreenSaverView.o
+t2
+s0
+
+N/Users/duane/Projects/Qlock/build/Qlock.build/Release/QlockScreenSaver copy.build/Objects-normal/ppc/Qlock
+t2
+s0
+
+N/Users/duane/Projects/Qlock/build/Qlock.build/Release/QlockScreenSaver copy.build/Objects-normal/ppc/Qlock.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/duane/Projects/Qlock/build/Qlock.build/Release/QlockScreenSaver copy.build/Objects-normal/ppc/QlockView.o
+t2
+s0
+
+N/Users/duane/Projects/Qlock/build/Qlock.build/Release/QlockScreenSaver copy.build/Objects-normal/x86_64/QScreenSaverView.o
+t2
+s0
+
+N/Users/duane/Projects/Qlock/build/Qlock.build/Release/QlockScreenSaver copy.build/Objects-normal/x86_64/Qlock
+t2
+s0
+
+N/Users/duane/Projects/Qlock/build/Qlock.build/Release/QlockScreenSaver copy.build/Objects-normal/x86_64/Qlock.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/duane/Projects/Qlock/build/Qlock.build/Release/QlockScreenSaver copy.build/Objects-normal/x86_64/QlockView.o
+t2
+s0
+
+N/Users/duane/Projects/Qlock/build/Release/Qlock.saver
+t1289117433
+s102
+
+N/Users/duane/Projects/Qlock/build/Release/Qlock.saver.dSYM
+t1289117433
+s102
+
+N/Users/duane/Projects/Qlock/build/Release/Qlock.saver/Contents/Info.plist
+t1289117208
+s828
+
+N/Users/duane/Projects/Qlock/build/Release/Qlock.saver/Contents/MacOS/Qlock
+t1289117433
+s31008
+
+N/Users/duane/Projects/Qlock/build/Release/Qlock.saver/Contents/Resources/English.lproj/InfoPlist.strings
+t1289117208
+s92
+
+N/Users/duane/Projects/qlock/ScreenSaver/QScreenSaverView.h
+c000000004CD659C100000000000002ED
+t1289116097
+s749
+i<ScreenSaver/ScreenSaver.h>
+i"QlockView.h"
+
+N/var/folders/sm/sm-NrhELEOS-08xkjZWc0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-assehvhzuyzfnnfqcuozwseobtqu/AppKit.h.gch
+t1289117307
+s54817840
+
+N/var/folders/sm/sm-NrhELEOS-08xkjZWc0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cixtrvujqerlvjcqkermmcieugme/AppKit.h.gch
+t1289117307
+s52188176
+
+N/var/folders/sm/sm-NrhELEOS-08xkjZWc0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-gkisiurxzwgpoyfymhlwpfgcpfal/AppKit.h.gch
+t1289117310
+s52061008
+
+NInfo copy.plist
+c00000000000000000000000000000000
+t2
+s0
+
+CCompileC "build/Qlock.build/Release/QlockScreenSaver copy.build/Objects-normal/i386/QScreenSaverView.o" /Users/duane/Projects/Qlock/../qlock/ScreenSaver/QScreenSaverView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Qlock.build/Release/QlockScreenSaver copy.build/Objects-normal/i386/QlockView.o" /Users/duane/Projects/Qlock/QlockView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Qlock.build/Release/QlockScreenSaver copy.build/Objects-normal/ppc/QScreenSaverView.o" /Users/duane/Projects/Qlock/../qlock/ScreenSaver/QScreenSaverView.m normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Qlock.build/Release/QlockScreenSaver copy.build/Objects-normal/ppc/QlockView.o" /Users/duane/Projects/Qlock/QlockView.m normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Qlock.build/Release/QlockScreenSaver copy.build/Objects-normal/x86_64/QScreenSaverView.o" /Users/duane/Projects/Qlock/../qlock/ScreenSaver/QScreenSaverView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Qlock.build/Release/QlockScreenSaver copy.build/Objects-normal/x86_64/QlockView.o" /Users/duane/Projects/Qlock/QlockView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCopyStringsFile /Users/duane/Projects/Qlock/build/Release/Qlock.saver/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+r0
+
+CCreateUniversalBinary /Users/duane/Projects/Qlock/build/Release/Qlock.saver/Contents/MacOS/Qlock normal "x86_64 i386 ppc"
+r0
+
+CGenerateDSYMFile /Users/duane/Projects/Qlock/build/Release/Qlock.saver.dSYM /Users/duane/Projects/Qlock/build/Release/Qlock.saver/Contents/MacOS/Qlock
+r0
+
+CLd "/Users/duane/Projects/Qlock/build/Qlock.build/Release/QlockScreenSaver copy.build/Objects-normal/i386/Qlock" normal i386
+r0
+
+CLd "/Users/duane/Projects/Qlock/build/Qlock.build/Release/QlockScreenSaver copy.build/Objects-normal/ppc/Qlock" normal ppc
+r0
+
+CLd "/Users/duane/Projects/Qlock/build/Qlock.build/Release/QlockScreenSaver copy.build/Objects-normal/x86_64/Qlock" normal x86_64
+r0
+
+CProcessInfoPlistFile /Users/duane/Projects/Qlock/build/Release/Qlock.saver/Contents/Info.plist "Info copy.plist"
+r0
+
+CProcessPCH /var/folders/sm/sm-NrhELEOS-08xkjZWc0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-assehvhzuyzfnnfqcuozwseobtqu/AppKit.h.gch /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/sm/sm-NrhELEOS-08xkjZWc0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cixtrvujqerlvjcqkermmcieugme/AppKit.h.gch /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/sm/sm-NrhELEOS-08xkjZWc0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-gkisiurxzwgpoyfymhlwpfgcpfal/AppKit.h.gch /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/duane/Projects/Qlock/build/Release/Qlock.saver
+r0
+

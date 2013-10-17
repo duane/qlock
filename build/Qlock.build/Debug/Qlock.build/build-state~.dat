@@ -1,0 +1,251 @@
+TQlock
+v7
+r0
+t310785459.077133
+cCheck dependencies
+cProcessInfoPlistFile /Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/Info.plist Info.plist
+cCopyStringsFile /Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/duane/Projects/qlock/English.lproj/MainMenu.xib
+cCpResource build/Debug/Qlock.app/Contents/Resources/README README
+cProcessPCH /var/folders/sm/sm-NrhELEOS-08xkjZWc0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Qlock_Prefix-apzvkcmcwwzeuaelrxaawvnrwcyn/Qlock_Prefix.pch.gch Qlock_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Qlock.build/Debug/Qlock.build/Objects-normal/i386/main.o /Users/duane/Projects/qlock/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Qlock.build/Debug/Qlock.build/Objects-normal/i386/QlockView.o /Users/duane/Projects/qlock/QlockView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/MacOS/Qlock normal i386
+cTouch /Users/duane/Projects/qlock/build/Debug/Qlock.app
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004C117E7D00000000000000EE
+t1276214909
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Quartz.framework/Headers/Quartz.h
+c0000000047BB1D140000000000000100
+t1203445012
+s256
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Quartz.framework/Quartz
+c000000004A0CC11D00000000000046C8
+t1242349853
+s18120
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004B760CD900000000000D66EC
+t1266027737
+s878316
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/ScreenSaver.framework/Headers/ScreenSaver.h
+c000000004864CD6400000000000000B9
+t1214565732
+s185
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdio.h
+c0000000047BA99310000000000003D1D
+t1203411249
+s15645
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h
+c000000004A11EAF10000000000000644
+t1242688241
+s1604
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/duane/Projects/qlock/English.lproj/InfoPlist.strings
+c000000004CD5FE09000000000000005C
+t1289092617
+s92
+
+N/Users/duane/Projects/qlock/English.lproj/MainMenu.xib
+c000000004CD5FE090000000000026B8C
+t1289092617
+s158604
+
+N/Users/duane/Projects/qlock/QlockView.h
+c000000004CD5FE09000000000000055D
+t1289092617
+s1373
+i<Cocoa/Cocoa.h>
+i<Quartz/Quartz.h>
+i<ScreenSaver/ScreenSaver.h>
+
+N/Users/duane/Projects/qlock/QlockView.m
+c000000004CD5FE090000000000003B2F
+t1289092617
+s15151
+i"QlockView.h"
+i<stdio.h>
+i<stdbool.h>
+
+N/Users/duane/Projects/qlock/Qlock_Prefix.pch
+c000000004CD5FE090000000000000270
+t1289092617
+s624
+i<Cocoa/Cocoa.h>
+
+N/Users/duane/Projects/qlock/README
+c000000004CD5FE090000000000000413
+t1289092617
+s1043
+
+N/Users/duane/Projects/qlock/build/Debug/Qlock.app
+t1289092659
+s102
+
+N/Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/Info.plist
+t1289092654
+s763
+
+N/Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/MacOS/Qlock
+t1289092659
+s29056
+
+N/Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/PkgInfo
+t1289092654
+s8
+
+N/Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1289092654
+s92
+
+N/Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/Resources/English.lproj/MainMenu.nib
+t1289092655
+s28488
+
+N/Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/Resources/README
+t1289092655
+s1043
+
+N/Users/duane/Projects/qlock/build/Qlock.build/Debug/Qlock.build/Objects-normal/i386/Qlock.LinkFileList
+c000000004CD5FE2E00000000000000BB
+t1289092654
+s187
+
+N/Users/duane/Projects/qlock/build/Qlock.build/Debug/Qlock.build/Objects-normal/i386/QlockView.o
+t1289092658
+s33308
+
+N/Users/duane/Projects/qlock/build/Qlock.build/Debug/Qlock.build/Objects-normal/i386/main.o
+t1289092658
+s4836
+
+N/Users/duane/Projects/qlock/main.m
+c000000004CD5FE0900000000000002B6
+t1289092617
+s694
+i<Cocoa/Cocoa.h>
+
+N/var/folders/sm/sm-NrhELEOS-08xkjZWc0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Qlock_Prefix-apzvkcmcwwzeuaelrxaawvnrwcyn/Qlock_Prefix.pch.gch
+t1289092658
+s54075824
+
+NInfo.plist
+c000000004CD5FE090000000000000357
+t1289092617
+s855
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies310785454#310785454#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/Qlock.build/Debug/Qlock.build/Objects-normal/i386/QlockView.o /Users/duane/Projects/qlock/QlockView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310785458.433293
+e310785458.738386
+r1
+xCompileC
+xbuild/Qlock.build/Debug/Qlock.build/Objects-normal/i386/QlockView.o
+x/Users/duane/Projects/qlock/QlockView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/duane/Projects/qlock/QlockView.m310785458#310785458#0(0"0(0#0#39"/Users/duane/Projects/qlock/QlockView.m8604675744#1306"    cd /Users/duane/Projects/qlock    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/duane/Projects/qlock/build/Qlock.build/Debug/Qlock.build/Qlock-generated-files.hmap -I/Users/duane/Projects/qlock/build/Qlock.build/Debug/Qlock.build/Qlock-own-target-headers.hmap -I/Users/duane/Projects/qlock/build/Qlock.build/Debug/Qlock.build/Qlock-all-target-headers.hmap -iquote /Users/duane/Projects/qlock/build/Qlock.build/Debug/Qlock.build/Qlock-project-headers.hmap -F/Users/duane/Projects/qlock/build/Debug -I/Users/duane/Projects/qlock/build/Debug/include -I/Users/duane/Projects/qlock/build/Qlock.build/Debug/Qlock.build/DerivedSources/i386 -I/Users/duane/Projects/qlock/build/Qlock.build/Debug/Qlock.build/DerivedSources -include /var/folders/sm/sm-NrhELEOS-08xkjZWc0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Qlock_Prefix-apzvkcmcwwzeuaelrxaawvnrwcyn/Qlock_Prefix.pch -c /Users/duane/Projects/qlock/QlockView.m -o /Users/duane/Projects/qlock/build/Qlock.build/Debug/Qlock.build/Objects-normal/i386/QlockView.o0#
+
+CCompileC build/Qlock.build/Debug/Qlock.build/Objects-normal/i386/main.o /Users/duane/Projects/qlock/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310785458.432020
+e310785458.611169
+r1
+xCompileC
+xbuild/Qlock.build/Debug/Qlock.build/Objects-normal/i386/main.o
+x/Users/duane/Projects/qlock/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Compile /Users/duane/Projects/qlock/main.m310785458#310785458#0(0"0(0#0#34"/Users/duane/Projects/qlock/main.m8602801088#1296"    cd /Users/duane/Projects/qlock    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/duane/Projects/qlock/build/Qlock.build/Debug/Qlock.build/Qlock-generated-files.hmap -I/Users/duane/Projects/qlock/build/Qlock.build/Debug/Qlock.build/Qlock-own-target-headers.hmap -I/Users/duane/Projects/qlock/build/Qlock.build/Debug/Qlock.build/Qlock-all-target-headers.hmap -iquote /Users/duane/Projects/qlock/build/Qlock.build/Debug/Qlock.build/Qlock-project-headers.hmap -F/Users/duane/Projects/qlock/build/Debug -I/Users/duane/Projects/qlock/build/Debug/include -I/Users/duane/Projects/qlock/build/Qlock.build/Debug/Qlock.build/DerivedSources/i386 -I/Users/duane/Projects/qlock/build/Qlock.build/Debug/Qlock.build/DerivedSources -include /var/folders/sm/sm-NrhELEOS-08xkjZWc0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Qlock_Prefix-apzvkcmcwwzeuaelrxaawvnrwcyn/Qlock_Prefix.pch -c /Users/duane/Projects/qlock/main.m -o /Users/duane/Projects/qlock/build/Qlock.build/Debug/Qlock.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/duane/Projects/qlock/English.lproj/MainMenu.xib
+s310785454.906256
+e310785455.310546
+r1
+xCompileXIB
+x/Users/duane/Projects/qlock/English.lproj/MainMenu.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/duane/Projects/qlock/English.lproj/MainMenu.xib:371: warning: This window's content rectangle does not lie entirely on the screen with the menu bar and may not be completely visible for all screen resolutions and configurations.
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib310785454#310785455#0(277"/* com.apple.ibtool.document.warnings *//Users/duane/Projects/qlock/English.lproj/MainMenu.xib:371: warning: This window's content rectangle does not lie entirely on the screen with the menu bar and may not be completely visible for all screen resolutions and configurations.1(22@166"This window's content rectangle does not lie entirely on the screen with the menu bar and may not be completely visible for all screen resolutions and configurations.310785455#18446744073709551615#0#0(6@54"/Users/duane/Projects/qlock/English.lproj/MainMenu.xib310785417#371#0#371#0#0"0(0#0#54"/Users/duane/Projects/qlock/English.lproj/MainMenu.xib8601097888#329"    cd /Users/duane/Projects/qlock    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/Resources/English.lproj/MainMenu.nib /Users/duane/Projects/qlock/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.5.sdk0#
+
+CCopyStringsFile /Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s310785454.904664
+e310785454.982822
+r1
+xCopyStringsFile
+x/Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings310785454#310785454#0(0"0(0#0#59"/Users/duane/Projects/qlock/English.lproj/InfoPlist.strings8602951488#342"    cd /Users/duane/Projects/qlock    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Debug/Qlock.app/Contents/Resources/README README
+s310785454.982907
+e310785455.139864
+r1
+xCpResource
+xbuild/Debug/Qlock.app/Contents/Resources/README
+xREADME
+lSLF07#2@11"Copy README310785454#310785455#0(0"0(0#0#34"/Users/duane/Projects/qlock/README8606363424#287"    cd /Users/duane/Projects/qlock    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/duane/Projects/qlock/README /Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/Resources0#
+
+CLd /Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/MacOS/Qlock normal i386
+s310785458.738475
+e310785459.073778
+r1
+xLd
+x/Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/MacOS/Qlock
+xnormal
+xi386
+lSLF07#2@75"Link /Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/MacOS/Qlock310785458#310785459#0(0"0(0#0#0"8605434464#513"    cd /Users/duane/Projects/qlock    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/duane/Projects/qlock/build/Debug -F/Users/duane/Projects/qlock/build/Debug -filelist /Users/duane/Projects/qlock/build/Qlock.build/Debug/Qlock.build/Objects-normal/i386/Qlock.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework Quartz -framework QuartzCore -o /Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/MacOS/Qlock0#
+
+CProcessInfoPlistFile /Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/Info.plist Info.plist
+s310785454.890947
+e310785454.904574
+r1
+xProcessInfoPlistFile
+x/Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist310785454#310785454#0(0"0(0#0#38"/Users/duane/Projects/qlock/Info.plist28429470871191664#265"    cd /Users/duane/Projects/qlock    builtin-infoPlistUtility Info.plist -genpkginfo /Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/duane/Projects/qlock/build/Debug/Qlock.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/sm/sm-NrhELEOS-08xkjZWc0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Qlock_Prefix-apzvkcmcwwzeuaelrxaawvnrwcyn/Qlock_Prefix.pch.gch Qlock_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s310785455.311220
+e310785458.431762
+r1
+xProcessPCH
+x/var/folders/sm/sm-NrhELEOS-08xkjZWc0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Qlock_Prefix-apzvkcmcwwzeuaelrxaawvnrwcyn/Qlock_Prefix.pch.gch
+xQlock_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile Qlock_Prefix.pch310785455#310785458#0(0"0(0#0#44"/Users/duane/Projects/qlock/Qlock_Prefix.pch7378429254040249344#1217"    cd /Users/duane/Projects/qlock    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/duane/Projects/qlock/build/Qlock.build/Debug/Qlock.build/Qlock-generated-files.hmap -I/Users/duane/Projects/qlock/build/Qlock.build/Debug/Qlock.build/Qlock-own-target-headers.hmap -I/Users/duane/Projects/qlock/build/Qlock.build/Debug/Qlock.build/Qlock-all-target-headers.hmap -iquote /Users/duane/Projects/qlock/build/Qlock.build/Debug/Qlock.build/Qlock-project-headers.hmap -F/Users/duane/Projects/qlock/build/Debug -I/Users/duane/Projects/qlock/build/Debug/include -I/Users/duane/Projects/qlock/build/Qlock.build/Debug/Qlock.build/DerivedSources/i386 -I/Users/duane/Projects/qlock/build/Qlock.build/Debug/Qlock.build/DerivedSources -c /Users/duane/Projects/qlock/Qlock_Prefix.pch -o /var/folders/sm/sm-NrhELEOS-08xkjZWc0E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Qlock_Prefix-apzvkcmcwwzeuaelrxaawvnrwcyn/Qlock_Prefix.pch.gch0#
+
+CTouch /Users/duane/Projects/qlock/build/Debug/Qlock.app
+s310785459.073855
+e310785459.077075
+r1
+xTouch
+x/Users/duane/Projects/qlock/build/Debug/Qlock.app
+lSLF07#2@55"Touch /Users/duane/Projects/qlock/build/Debug/Qlock.app310785459#310785459#0(0"0(0#0#0"8605174496#107"    cd /Users/duane/Projects/qlock    /usr/bin/touch -c /Users/duane/Projects/qlock/build/Debug/Qlock.app0#
+
